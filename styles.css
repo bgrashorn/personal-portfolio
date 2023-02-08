@@ -1,0 +1,62 @@
+.home-body {
+    background-image: url('images/space-background.jpg');
+    background-size: cover;
+    background-repeat: none;
+    margin: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.nav-bar {
+    background-color: #183752;
+    text-align: center;
+    padding: 12px;
+}
+
+.nav-bar li {
+    display: inline;
+    padding: 0 15px;
+    font-size: 24px;
+}
+
+.nav-bar a {
+    color: #449deb;
+    text-decoration: none;
+}
+
+.name-header {
+    font-size: 84px;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.header-title {
+    font-size: 36px;
+    color: white;
+    text-align: center;
+}
+
+.body-rest {
+    background-color: #183752;
+    color: #449deb;
+    margin: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.footer-div {
+    position: relative;
+    top: 685px;
+    float: right;
+    padding-right: 15px;
+}
+
+.footer-div li {
+    display: inline;
+    padding: 0 5px;
+    font-size: 16px;
+}
+
+.footer-div a {
+    color: white;
+    text-decoration: none;
+}
