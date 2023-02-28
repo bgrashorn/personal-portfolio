@@ -59,11 +59,18 @@ a h5 {
     font-family: 'Nanum Gothic', sans-serif;
 }
 
+footer {
+    margin: 0;
+}
 .footer-div {
     position: relative;
-    top: 685px;
+    top: 200px;
     float: right;
     padding-right: 15px;
+}
+
+.home-footer {
+    top: 650px;
 }
 
 .footer-div li {
@@ -92,6 +99,7 @@ a h5 {
     line-height: 2;
     text-align: center;
     color: #183752;
+    font-size: 18px;
 }
 
 .gb-statue {
@@ -128,6 +136,18 @@ a h5 {
     padding-top: 40px;
 }
 
+.contact-btn {
+    border-radius: 4px;
+    width: 15%;
+    background-color: #449deb;
+    color: white;
+}
+
+.contact-btn:hover {
+    color: #183752;
+    background-color: #446beb;
+}
+
 /* Projects Styles */
 .card {
     width: 50%;
@@ -160,7 +180,7 @@ a h5 {
 
 /* Bucket List Styling */
 .bl-card {
-    width: 50%;
+    width: 20%;
     margin: auto;
     border-radius: 20px;
     text-align: center;
@@ -175,6 +195,7 @@ a h5 {
 .bl-item {
     list-style-type: none;
     line-height: 4;
+    font-size: 18px;
 }
 
 .icon-fa {
@@ -182,4 +203,41 @@ a h5 {
     width: 50%;
     margin: auto;
     font-size: 50px;
+}
+
+/* API Tests and Database sections */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 50px;
+}
+.card {
+    width: 70%;
+    margin: 20px auto;
+    
+}
+
+.card-title {
+    text-align: center;
+    font-size: 2em;
+    color: #4F3674;
+    font-weight: 400;
+}
+
+.card-content {
+    padding: 4px 16px;
+    line-height: 2;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 2.2);
+}
+
+.test-link {
+    text-decoration: none;
+}
+
+.icon-api {
+    font-size: 4rem;
 }
