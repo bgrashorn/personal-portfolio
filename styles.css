@@ -1,3 +1,16 @@
+/**
+    Title: styles.css
+    Author: Brett Grashorn
+    Date: 3/3/23
+    Description: Stylesheet for Personal Portfolio Project
+    Sources:  Web 200/330
+        W3Schools
+        Google Fonts
+        Font Awesome
+        Bootstrap
+ */
+
+
 body {
     font-family: 'Nanum Gothic', sans-serif;
 }
@@ -106,6 +119,13 @@ footer {
     width: 15%;
     float: right;
     margin-right: 100px;
+}
+
+.me-pic {
+    width: 15%;
+    float: left;
+    margin-left: 100px;
+
 }
 
 
