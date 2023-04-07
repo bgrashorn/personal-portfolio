@@ -233,7 +233,7 @@ footer {
     padding-top: 50px;
 }
 .card {
-    width: 70%;
+    width: 95%;
     margin: 20px auto;
     
 }
@@ -260,4 +260,8 @@ footer {
 
 .icon-api {
     font-size: 4rem;
+}
+
+.api-image {
+    width: 100%;
 }
