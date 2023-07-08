@@ -197,6 +197,11 @@ footer {
     border-color: black;
 }
 
+.project-list {
+   list-style-type: none;
+   padding-right: 22px;
+}
+
 
 /* Bucket List Styling */
 .bl-card {
